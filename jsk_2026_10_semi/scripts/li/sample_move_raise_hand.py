@@ -97,7 +97,7 @@ def main(args=None):
     goal.trajectory.points = [
         make_point(current, {}, 0.5),
         make_point(current, target, 5),
-        make_point(current, {}, 10),  # back to the starting posture
+        
     ]
 
     node.get_logger().info("Sending goal")
